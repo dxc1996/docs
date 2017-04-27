@@ -212,7 +212,6 @@ Factory.blueprint('App/Model/User', (fake) => {
 == 密码哈希
 link:authentication[验证]Provider在验证用户密码时使用link:encryption-and-hashing[哈希]Provider。在保存数据库之前，请确保您已经将密码散列。
 
-The best place to hash the password is inside a Model `beforeCreate` hook. You can learn about hooks link:lucid-hooks[here].
 把密码哈希的最佳位置是模型`beforeCreate`钩子。你可以了解钩子link:lucid-hooks[这里].。
 
 .生成钩子
