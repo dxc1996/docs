@@ -10,7 +10,6 @@ toc::[]
 数据附带几个Providers，用于散列值和加密数据。哈希值与加密不同，因为加密后的散列值无法解密，而不是加密的情况。
 
 == 设置
-To make use of Encryption or Hashing, you must set up their providers inside the `bootstrap/app.js` file.
 要使用加密或散列，你必须在`bootstrap/app.js`文件中设置其Providers。
 
 .bootstrap/app.js

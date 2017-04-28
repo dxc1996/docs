@@ -180,7 +180,7 @@ yield Factory.get('users').returning('id').create(5)
 yield Factory.get('users').reset()
 ----
 
-== 生成假数据a
+== 生成假数据
 传递`fake`对象给xref:[Factory.blueprint]方法的一个实例link:http://chancejs.com[chance.js, window="_blank"]。
 
 来自chancejs的所有方法都由AdonisJs支持，而AdonisJs也添加了一大堆新方法。
